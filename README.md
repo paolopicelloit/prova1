@@ -53,7 +53,7 @@ Once you have defined the corpus of document you want to index you have to setup
 
 1. Go to Terrier folder
 
-`cd terrier-core-4.1`
+ `cd terrier-core-4.1`
 
 2. Setup Terrier for using a TREC test collection
 
