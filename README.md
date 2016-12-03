@@ -65,12 +65,12 @@ Once you have defined the corpus of document you want to index you have to setup
 
 With Terrier's default settings, the resulting index will be created in the var/index folder within the Terrier installation folder.
 
-**IMPORTANT:** For the usage of the software you will have to know the path to the folder where is the created index along with the path to the terrier.properties file used for indexing (It will be used to know FIELD informations and TOPIC processing informations)
+**IMPORTANT:** To use our software you have to know the path to the folder where the index is created along with the path to terrier.properties file used for indexing (It will be used to know FIELD informations and TOPIC processing informations)
 
 
 ## Picello1
 
-Here we explain the configuration for the usage of our first module to precompute LETOR features on disk. The full working of the software is controlled by java properties file.
+Here we explain the configuration to use our first module to precompute LETOR features on disk. The full working of the software is controlled by java properties file.
 
 We give a brief explanation of the configuration properties
 
