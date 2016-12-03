@@ -38,10 +38,7 @@ We refer to the official sites for the installation guides and we give here a br
 
 For this software we assume that you have Terrier SE working. We refer to the "Installing and Running Terrier" guide (http://terrier.org/docs/v4.1/quickstart.html).
 
-We assume that the operating system is Linux or Mac/OSX and that the collection, along with topics and relevance assesments (qrels),
-is stored in the directory `/data/`. 
-
-For this software we assume that you have Terrier SE working. We refer to the "Installing and Running Terrier" guide (http://terrier.org/docs/v4.1/quickstart.html) 
+We assume that the operating system is Linux or Mac/OSX and that the collection is stored in the directory `/data/collection/`. 
 
 Topics file is in the standard TREC format while qrel file has the format:
 
