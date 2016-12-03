@@ -168,6 +168,8 @@ Once in the jar directory run with
 
 If the path to properties file is not passed the dafault location will be used (resources/config.properties)
 
+Results will be written in `out_path/runs` following this name notation: `<run_name>_<algorithm_name>_<library_name>`.
+
 ## Motivation
 
 A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
