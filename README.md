@@ -25,9 +25,10 @@ The currently implemented algorithms are:
 
 Starting from runs generated with classical search-engines we want to perform reranking according to the specified algorithms to conduct studies on the efficiency of LTR algorithm
 
-In order to make our software as efficient as possible we build it in two main module
-- Picello1 is responsable for pre-computing LETOR features from a Terrier generated index and save them in efficient byte tables on disk
-- Picello2 is responsable for the execution of LTR algorithms and saving of the reranked results 
+In order to make our software as efficient as possible we build it in two main module:
+
+- *Picello1* is responsable for pre-computing LETOR features from a Terrier generated index and save them in efficient byte tables on disk
+- *Picello2* is responsable for the execution of LTR algorithms and saving of the reranked results 
 
 
 ## How to use
