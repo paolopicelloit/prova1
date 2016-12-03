@@ -65,7 +65,7 @@ Once you have defined the corpus of document you want to index you have to setup
 
 With Terrier's default settings, the resulting index will be created in the var/index folder within the Terrier installation folder.
 
-**IMPORTANT:** To use our software you have to know the path to the folder where the index is created along with the path to terrier.properties file used for indexing (It will be used to extract FIELD informations and TOPIC processing informations)
+**IMPORTANT:** To use our software you have to know the path to the folder where the index is created along with the path to terrier.properties file used for indexing (It will be used to extract fields informations and topic processing informations)
 
 
 ## Picello1
