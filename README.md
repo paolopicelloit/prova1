@@ -57,11 +57,11 @@ Once you have defined the corpus of document you want to index you have to setup
 
 2. Setup Terrier for using a TREC test collection
 
-`./bin/trec_setup.sh /data/collection/`
+ `./bin/trec_setup.sh /data/collection/`
 
 3. Index the collection
 
-`./bin/trec_terrier.sh -i`
+ `./bin/trec_terrier.sh -i`
 
 With Terrier's default settings, the resulting index will be created in the var/index folder within the Terrier installation folder.
 
