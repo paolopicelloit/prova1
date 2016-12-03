@@ -34,7 +34,7 @@ In order to make our software as efficient as possible we build it in two main m
 ## How to use
 
 In this guide it is assumed that Terrier is installed on your machine as well as RankLib, QuickRank and JForests.
-We refer to the official sites for the installation guides and we give here a brief step-by-step guide for running our software.
+We refer to the official sites for installation guides and we give here a brief step-by-step guide for running our software.
 
 For this software we assume that you have Terrier SE working. We refer to the "Installing and Running Terrier" guide (http://terrier.org/docs/v4.1/quickstart.html).
 
