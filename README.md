@@ -23,7 +23,7 @@ The currently implemented algorithms are:
 
 ## The software
 
-Starting from runs generated with classical search-engines we want to perform reranking according to the specified algorithms to conduct studies on the efficiency of LTR algorithm
+Starting from runs generated with classical search-engines we want to perform reranking according to the specified algorithms to conduct large scale experiments on the efficiency of LTR algorithm
 
 In order to make our software as efficient as possible we build it in two main module:
 
