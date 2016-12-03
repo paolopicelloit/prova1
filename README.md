@@ -160,6 +160,7 @@ For configuration options specific to each algorithm refer to libraries sites.
 The syntax is as follow:
 
 `<algorithm>.<parameter>=`						For options common to every library.
+
 `<algorithm>.<ltr-library-name>.<parameter>=`		For options specific to a single library.
 
 Once in the jar directory run with
