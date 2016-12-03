@@ -91,15 +91,20 @@ General configuration:
 `logger_level` Define the logging level
 
 Output configurations:
+
 `table_path` Path to the generated tables containing the computed letor
+
 `pointers_path`Path to the generated file containing positional informations (hashmap qid/byte_offset)
 
 
 `features` Define which features to compute. Every used feature need to be defined with `classname` and `datatype`.
 
 The syntax is as follow:
+
 terrier.<feature-name>					For features computed with Terrier.
+
 features.<feature-name> 				For features defined in Picello1.
+
 features.<feature-name>-<field_name>	For features defined in Picello1 computed on a single field.
 
 Once in the jar directory run with
