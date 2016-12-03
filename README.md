@@ -75,12 +75,19 @@ Here we explain the configuration to use our first module to precompute LETOR fe
 We give a brief explanation of the configuration properties
 
 General configuration:
+
 `terrier_home` Path to Terrier installation folder
+
 `index` Path to generated index
+
 `terrier_properties` Path to Terrier properties file
+
 `runsFolder` Path to the folder that contains the runs for which we want to computer letor features
+
 `pool` Path to qrel file
+
 `topics` Path to topics file
+
 `logger_level` Define the logging level
 
 Output configurations:
