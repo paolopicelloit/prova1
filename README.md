@@ -176,7 +176,7 @@ Results will be written in `out_path/runs` following this name notation: `<run_n
 
 We welcome comments and contribution!
 
-For any question write to `paolopicello@gmail.com`
+For any question write to `paolopicelloit@gmail.com`
 
 ## License
 
@@ -203,3 +203,5 @@ A short snippet describing the license (MIT, Apache, etc.)
 [9] D. G. Luenberger. Linear and nonlinear programming. Addison Wesley, 1984.
 
 [10] Y. Ganjisaffar, R. Caruana, C. Lopes, Bagging Gradient-Boosted Trees for High Precision, Low Variance Ranking Models, in SIGIR 2011, Beijing, China.
+
+[11] Capannini, G., Lucchese, C., Nardini, F. M., Orlando, S., Perego, R., and Tonellotto, N. Quality versus efficiency in document scoring with learning-to-rank models. Information Processing & Management, 2016.
