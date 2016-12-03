@@ -134,7 +134,7 @@ Output configurations:
 
 Learning To Rank configurations:
 
-`train` Specify topics used as training set (e.g 351,367,368,388,..)
+`train` Specify topics used as training set (e.g. `351,367,368,388,..`)
 
 `validation` Specify topics used as validation set 
 
@@ -162,6 +162,8 @@ The syntax is as follow:
 `<algorithm>.<parameter>=`						For options common to every library.
 
 `<algorithm>.<ltr-library-name>.<parameter>=`		For options specific to a single library.
+
+`<algorithm>.libraries` Specify with which libraries execute this algorithm (e.g. `mart.libraries=ranklib,quickrank`)
 
 Once in the jar directory run with
 
