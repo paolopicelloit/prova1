@@ -101,11 +101,11 @@ Output configurations:
 
 The syntax is as follow:
 
-terrier.<feature-name>					For features computed with Terrier.
+`terrier.<feature-name>`					For features computed with Terrier.
 
-features.<feature-name> 				For features defined in Picello1.
+`features.<feature-name>`				For features defined in Picello1.
 
-features.<feature-name>-<field_name>	For features defined in Picello1 computed on a single field.
+`features.<feature-name>-<field_name>`	For features defined in Picello1 computed on a single field.
 
 Once in the jar directory run with
 
