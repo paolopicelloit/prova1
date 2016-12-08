@@ -30,6 +30,7 @@ In order to make our software as efficient as possible we build it in two main m
 - *Picello1* is responsable for pre-computing LETOR features from a Terrier generated index and save them in efficient byte tables on disk
 - *Picello2* is responsable for the execution of LTR algorithms and saving of the reranked results 
 
+The code is compiled using Java 8.
 
 ## How to use
 
