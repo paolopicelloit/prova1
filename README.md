@@ -105,9 +105,15 @@ The syntax is as follow:
 
 `terrier.<feature-name>`				For features computed with Terrier.
 
-`features.<feature-name>`				For features defined in Picello1.
+`features.<feature-name>`				For features defined in this software.
 
-`features.<feature-name>-<field_name>`	For features defined in Picello1 computed on a single field.
+`features.<feature-name>-<field_name>`	For features defined in this software computed on a single field.
+
+`features.<feature-name>.class`				For features classname.
+
+`features.<feature-name>.datatype`				For features datatype ( java.lang.Integer | java.lang.Double)
+
+
 
 Once in the jar directory run with
 
