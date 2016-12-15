@@ -27,14 +27,14 @@ Starting from runs generated with classical search-engines we perform reranking 
 
 In order to make our software as efficient as possible we build it in two main module:
 
-- *Picello1* is responsable for pre-computing LETOR features from a Terrier generated index and save them in efficient byte tables on disk
-- *Picello2* is responsable for the execution of LTR algorithms and saving of the reranked results 
+- *Features Extraction* is responsable for pre-computing LETOR features from a Terrier generated index and save them in efficient byte tables on disk
+- *LTR Algorithms Execution* is responsable for the execution of LTR algorithms and saving of the reranked results 
 
 The code is compiled using Java 8.
 
 ## How to use
 
-In this guide it is assumed that Terrier is installed on your machine. RankLib, QuickRank and JForests are included in the software but you can use differernt versions modifying the properties file.
+In this guide it is assumed that Terrier is installed on your machine. RankLib, QuickRank and JForests are included in the software but you can use different versions modifying the properties file.
 We refer to the official sites for installation guides and we give here a brief step-by-step guide for running our software.
 
 For this software we assume that you have Terrier SE working. We refer to the "Installing and Running Terrier" guide (http://terrier.org/docs/v4.1/quickstart.html).
@@ -66,10 +66,10 @@ Once you have defined the corpus of documents you want to index you have to setu
 
 With Terrier's default settings, the resulting index will be created in the var/index folder within the Terrier installation folder.
 
-**IMPORTANT:** To use our software you have to know the path to the folder where the index is created along with the path to terrier.properties file used for indexing (It will be used to extract fields informations and topic processing informations)
+**IMPORTANT:** To use our software you have to know the path to the folder where the index is created along with the path to the terrier.properties file used for indexing (It will be used to extract fields informations and topic processing informations)
 
 
-## Picello1
+## Features Extraction
 
 Here we explain the configuration to use our first module to precompute LETOR features on disk. The full working of the software is controlled by java properties file.
 
@@ -80,7 +80,7 @@ General configuration:
 
 `terrier_home` Path to Terrier installation folder
 
-`index` Path to generated index
+`index` Path to the generated index
 
 `terrier_properties` Path to Terrier properties file
 
@@ -97,6 +97,8 @@ Output configurations:
 `table_path` Where to save the generated tables containing the computed letor
 
 `pointers_path` Where to save the generated files containing positional informations (hashmap qid/byte_offset)
+
+
 
 `features` Define which features to compute. Every used feature need to be defined with `classname` and `datatype`.
 
