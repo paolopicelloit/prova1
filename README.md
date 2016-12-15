@@ -103,15 +103,15 @@ Output configurations:
 
 The syntax is as follow:
 
-`terrier.<feature-name>`				For features computed with Terrier.
+- `terrier.<feature-name>`				For features computed with Terrier.
 
-`features.<feature-name>`				For features defined in this software.
+- `features.<feature-name>`				For features defined in this software.
 
-`features.<feature-name>-<field_name>`	For features defined in this software computed on a single field.
+- `features.<feature-name>-<field_name>`	For features defined in this software computed on a single field.
 
-`features.<feature-name>.class`				For features classname.
+- `features.<feature-name>.class`				For features classname.
 
-`features.<feature-name>.datatype`				For features datatype ( java.lang.Integer | java.lang.Double)
+- `features.<feature-name>.datatype`				For features datatype (java.lang.Integer | java.lang.Double)
 
 
 
