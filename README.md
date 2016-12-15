@@ -94,10 +94,9 @@ General configuration:
 
 Output configurations:
 
-`table_path` Where to save the generated tables containing the computed letor
+- `table_path` Where to save the generated tables containing the computed letor
 
-`pointers_path` Where to save the generated files containing positional informations (hashmap qid/byte_offset)
-
+- `pointers_path` Where to save the generated files containing positional informations (hashmap qid/byte_offset)
 
 
 `features` Define which features to compute. Every used feature need to be defined with `classname` and `datatype`.
