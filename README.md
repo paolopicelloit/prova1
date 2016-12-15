@@ -151,8 +151,8 @@ Learning To Rank configurations:
 - `used_features` Specify which of the precomputed features to use for this execution
 
 - `algorithms` LTR algorithms to lunch in this execution (The syntax is as follow: `algorithms=<algo-name>,<algo-name>,...,<algo-name>`)
-Possible values are:
 
+Possible values are:
 - mart
 - ranknet
 - rankboost
