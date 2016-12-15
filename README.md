@@ -25,7 +25,7 @@ The currently implemented algorithms are:
 
 Starting from runs generated with classical search-engines we perform reranking according to the specified algorithms to conduct large scale experiments on the efficiency of LTR algorithm
 
-In order to make our software as efficient as possible we build it in two main module:
+In order to make our software as efficient as possible we build it in two main modules:
 
 - *Features Extraction* is responsable for pre-computing LETOR features from a Terrier generated index and save them in efficient byte tables on disk
 - *LTR Algorithms Execution* is responsable for the execution of LTR algorithms and saving of the reranked results 
