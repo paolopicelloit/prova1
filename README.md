@@ -50,7 +50,7 @@ Run files must also be in the standard format:
 > query-number    Q0    document-id    rank    score    run-name
 
 
-Once you have defined the corpus of documents you have to index you have to setup Terrier for using TREC test collections
+Once you have defined the corpus of documents to index you have to setup Terrier for using TREC test collections
 
 1. Go to Terrier folder
 
