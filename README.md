@@ -138,7 +138,7 @@ General configuration:
 
 Output configurations:
 
-`out_path` Output directory. There will be two folders: `out_path/runs` contains re-ranked versions of the run files in runsFolder, `out_path_info` contains informations on the generated Letor files
+`out_path` Output directory. There will be two folders: `out_path/runs` contains re-ranked versions of the run files in runsFolder, `out_path_info` contains information on the generated Letor files
 
 Learning To Rank configurations:
 
