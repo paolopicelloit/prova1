@@ -84,7 +84,7 @@ General configuration:
 
 `terrier_properties` Path to Terrier properties file
 
-`runsFolder` Path to the folder that contains the runs for which we want to computer letor features
+`runsFolder` Path to the folder that contains the runs for which we want to compute letor features
 
 `pool` Path to qrel file
 
