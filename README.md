@@ -71,7 +71,7 @@ With Terrier's default settings, the resulting index will be created in the var/
 
 ## Features Extraction
 
-Here we explain the configuration to use our first module to precompute LETOR features on disk. The full working of the software is controlled by java properties file.
+Here we explain the configuration to use the **Features Extraction** module to precompute LETOR features on disk. The full working of the software is controlled by java properties file.
 
 
 We give a brief explanation of the configuration properties. We refer to the well-commented example of properties file for further explanation.
