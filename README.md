@@ -164,7 +164,7 @@ Possible values are:
 - linesearch
 - gradientboostingbinaryclassifier
 
-For configuration options specific to each algorithm refer to libraries sites. 
+For configuration options specific to each algorithm refer to libraries websites. 
 The syntax is as follow:
 
 - `<algorithm>.<parameter>=`						For options common to every library.
